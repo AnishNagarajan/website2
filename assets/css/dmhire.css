@@ -1,0 +1,65 @@
+.hire-area{
+    background-image: url('img/hire-bg.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    padding-top:185px;
+    padding-bottom: 185px;
+    position: relative;
+    background-repeat: no-repeat;
+    
+}
+.hire-area:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #01001e;
+    opacity: 0.50;
+}
+.bg-img{
+    display:grid;
+    grid-template-columns:2fr 4fr 2fr;
+    
+    
+} 
+.bg-img h2{
+    
+    font-size: 48px;
+    line-height: 58px;
+    color:white !important;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.btn-hire{
+align-items:center;
+margin-left:37rem;
+margin-top:2rem;
+}
+.btn-hire .btn-hun
+{
+ text-decoration: none;  
+ font-size: 16px;
+ font-weight: 500;
+ min-width: 180px;
+}
+.btn-hire .btn-hun {
+    background: #ffc400;
+    color: #040021;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    background: #e82b4b;
+    display: inline-block;
+    border-radius: 3px;
+    min-width: 150px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}

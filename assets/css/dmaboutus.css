@@ -1,0 +1,167 @@
+.dmaboutus{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+section{
+    margin:2rem 0rem;
+}
+.para1 p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #e82b4b;
+    text-transform: uppercase;
+    margin:1rem;
+    line-height: 1;
+}
+.aboutus h2{
+    font-size: 48px;
+    line-height: 58px;
+    color: #040021;
+    text-transform: uppercase;
+    margin:1rem;
+    font-weight: 700;
+}
+.para2 p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #8f98a8;
+    margin: 1rem;
+    width: 86%;
+    
+}
+.about-btn{
+    margin-top:3rem;
+}
+.exp{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+}
+.trophy{
+    display:grid;
+    grid-template-columns:1fr 3fr;
+}
+.trophy .fa-trophy{
+    font-size: 70px;
+    color: #e82b4b;
+    line-height: 1;
+}
+.experience .spn{
+    display: block;
+    font-size: 48px;
+    color: #e82b4b;
+    line-height: 1;
+    font-weight: 800;
+}
+.icon{
+    align-content: center;
+}
+.experience p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #040021;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #8f98a8;
+    margin-bottom: 0;
+    width: 80%;
+}
+.business{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.busns{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+}
+.busns .fa-handshake-o{
+    
+    color: #040021;
+    line-height: 60px;
+    font-size: 28px;
+    transition: all 0.3s ease-out 0s;
+    align-content: center;
+}
+.busns h5{
+    font-size: 18px;
+    font-weight: 700;
+    
+   
+}
+.busns{
+    align-content:center;
+}
+.busns .fa-handshake-o:hover{
+    color:#e82b4b;
+}
+.para3{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.para3 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #8f98a8;
+    margin-bottom: 0;
+    width: 79%;
+}
+.about-btn .grb-btn {
+    font-size: 15px;
+    min-width: 180px;
+}
+.grb-btn{
+    background:#8500d1;
+}
+.grb-btn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    background: #6639ff;
+    display: inline-block;
+    border-radius: 3px;
+    min-width: 150px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.about__btn .grb-btn i {
+    border-radius: 50%;
+    margin-left: 20px;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    font-size: 10px;
+    color: #8500d1;
+}
+.grb-btn i {
+    font-size: 15px;
+    color: #040021;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 16px;
+    background: #ffffff;
+}
+.about-btn a{
+    text-decoration: none;
+}
+.grb-btn {
+    background: #8500d1;
+}
+.about-btn a:hover{
+    color: #e82b4b;
+}
+
+

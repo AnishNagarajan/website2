@@ -1,0 +1,70 @@
+section{
+    margin: 5rem 0rem;
+}
+.services p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #e82b4b;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+.ourservices h2{
+    font-size: 48px;
+    line-height: 58px;
+    color: #040021;
+    text-transform: uppercase;
+    text-align: center;
+}
+.our-services{
+    display:grid;
+    grid-template-columns:1fr 3fr 3fr 3fr 1fr ;
+    gap: 15px;
+}
+.ideaicon{
+    font-size: 40px;
+    color: #8500d1;
+    width: 78px;
+    height: 78px;
+    background: #f8ecff;
+    text-align: center;
+    line-height: 78px;
+    border-radius: 0 0 50% 50%;
+    
+}
+.servicee h4{
+    transition: all 0.3s ease-out 0s;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 58px;
+   
+}
+.servicee a{
+text-decoration: none;
+color: #040021;
+}
+
+.servicee p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #8f98a8;
+    margin-bottom: 0;
+}
+.ourservice{
+    padding: 0 30px 25px;
+    box-shadow: 20px 10px 30px rgba(16, 0, 71, 0.07);
+    background: #ffffff;
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    margin: 1rem;
+}
+.ourservice:hover{
+    background-color: #e82b4b;
+    color:black;
+}
+
+
+
+    

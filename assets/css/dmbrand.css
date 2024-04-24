@@ -1,0 +1,11 @@
+.client{
+    padding:1vh 3vw;
+    filter:grayscale(1);
+}
+.client:hover{
+filter:none;
+}
+/* .client-slider img{
+ width: 120px !important;;
+ height:50px;
+} */
