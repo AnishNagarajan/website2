@@ -1,6 +1,6 @@
 .team-member{
     background-color:hsl(0deg 0% 7% / 5%)
-    margin: 4rem 0rem;
+    padding: 5rem;
 }
 .team{
     display:grid;
@@ -9,6 +9,8 @@
 .tm p{
     font-size:20px;
     text-align:center;
+    font-weight: 700;
+    color: #e82b4b;
 }
 .tm h2{
     font-size:50px;
