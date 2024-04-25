@@ -2,9 +2,7 @@
     display:grid;
     grid-template-columns:1fr 1fr;
 }
-section{
-    margin:2rem 0rem;
-}
+
 .para1 p{
     font-size: 18px;
     font-weight: 700;
@@ -63,11 +61,11 @@ section{
     font-weight: 700;
     color: #040021;
 }
-p {
+.experience p {
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
-    color: #8f98a8;
+    color: black;
     margin-bottom: 0;
     width: 80%;
 }

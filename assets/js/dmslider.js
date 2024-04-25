@@ -1,31 +1,29 @@
-let slidersBg = document.querySelector(".slider");
-let leftClick = document.querySelector("#left");
-let rightClick = document.querySelector("#right");
-let sliderTitle = document.querySelector(".sliderTitle");
+document.addEventListener("DOMContentLoaded", function () {
+  const slider = document.querySelector(".slider");
+  const slides = document.querySelectorAll(".slide");
+  const sliderBtns = document.querySelectorAll(".slider-btn");
+  const slideCount = slides.length;
+  const slideWidth = slides[0].offsetWidth;
 
-let sliders = ["banner1.jpg", "banner2.jpg", "banner3.jpg"];
-let h2Content = [
-  "Welcome to our ",
-  "Lorem ipsum dolor ",
-  "Maiores necessitatibus ",
-];
+  let currentIndex = 0;
 
-let orangeText = ["website!!!", "sit amet", "facilis "];
-
-let index = 0;
-leftClick.addEventListener("click", () => {
-  index--;
-  if (index < 0) {
-    index = sliders.length - 1;
+  // Function to move the slider to a specific index
+  function goToSlide(index) {
+    if (index < 0 || index >= slideCount) return;
+    slider.style.transform = `translateX(-${slideWidth * index}px)`;
+    currentIndex = index;
   }
-  slidersBg.style.background = `linear-gradient(rgb(0 0 0 / 62%), rgb(93 93 93 / 98%)), url(./assets/img/${sliders[index]}.jpg)`;
-  sliderTitle.innerHTML = `${h2Content[index]}<span>${orangeText[index]}</span>`;
-});
-rightClick.addEventListener("click", () => {
-  index++;
-  if (index == sliders.length) {
-    index = 0;
-  }
-  slidersBg.style.background = `linear-gradient(rgb(0 0 0 / 62%), rgb(93 93 93 / 98%)), url(./assets/img/${sliders[index]}.jpg)`;
-  sliderTitle.innerHTML = `${h2Content[index]}<span>${orangeText[index]}</span>`;
+
+  // Event listener for slider buttons
+  sliderBtns.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+      goToSlide(index);
+    });
+  });
+
+  // Automatic slider
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % slideCount;
+    goToSlide(currentIndex);
+  }, 3000);
 });
