@@ -108,3 +108,12 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .slider {
+      grid-template-columns: repeat(1, 100vw); /* Each image takes up the full viewport width, one per row */
+      width: 100%; /* Total width is now the viewport width */
+    }
+  }
