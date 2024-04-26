@@ -136,10 +136,11 @@ font-weight: 700;
     position: absolute;
     top: 10px;
     right: 10px;
-    background: white;
+    background: transparent;
     border: none;
     font-size: 24px;
     cursor: pointer;
+    color:white;
 }
 
 
@@ -170,12 +171,13 @@ menu-content {
 .close-btn {
     position: absolute;
     top: 10px;
-    left: -40px; /* Adjust the position to ensure it's visible */
-    background: white;
+    left: -60px; Adjust the position to ensure it's visible
+    background: transparent;
     border: none;
     font-size: 24px;
     cursor: pointer;
     padding: 0 10px; /* Adjust padding as needed */
     border-radius: 50%; /* Optional: Add a circular shape to the button */
+    color:white;
 }
 
