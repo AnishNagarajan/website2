@@ -166,3 +166,34 @@
 }
 
 
+
+@media only screen and (max-width: 768px) {
+    .dmaboutus {
+        grid-template-columns: 1fr;
+    }
+    
+    .exp, .business, .para3 {
+        grid-template-columns: 1fr;
+    }
+
+    .para2 p, .experience p, .para3 p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .dmaboutus {
+        grid-template-columns: 1fr;
+    }
+    
+    .exp, .business, .para3 {
+        grid-template-columns: 1fr;
+    }
+
+    .para2 p, .experience p, .para3 p {
+        width: 100%;
+    }
+}
+
+
+

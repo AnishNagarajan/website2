@@ -96,3 +96,23 @@ color:black;
 ul a:hover{
     color:black;
 }
+
+
+
+/* For small devices (phones, up to 575.98px) */
+@media (max-width: 575.98px) {
+    .bp-img {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout for small devices */
+        gap: 10px; /* Adjust gap between images */
+    }
+}
+
+/* For medium devices (tablets, 576px to 991.98px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .bp-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns layout for medium devices */
+        gap: 20px; /* Adjust gap between images */
+    }
+}

@@ -181,3 +181,19 @@ menu-content {
     color:white;
 }
 
+
+
+/* Media query for screens below 1000px */
+@media screen and (max-width: 1000px) {
+    /* Hide navigation and search elements */
+    .headerlist {
+        display: none;
+    }
+    .headersearch {
+        display: none;
+    }
+    
+    .header-sec {
+        grid-template-columns: 1fr 1fr;
+         
+}

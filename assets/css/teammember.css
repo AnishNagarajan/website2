@@ -36,3 +36,95 @@ font-size:18px;
 .image img:hover{
     filter: saturate(100%);
 }
+
+
+* For small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    .team-image {
+        grid-template-columns: 1fr 1fr; /* Display team members in two columns */
+    }
+
+    .team-member {
+        padding: 3rem; /* Reduce padding */
+    }
+
+    .tm h2 {
+        font-size: 40px; /* Adjust heading font size */
+    }
+
+    .image {
+        margin-bottom: 2rem; /* Adjust margin between team members */
+    }
+}
+
+/* For medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .team-image {
+        grid-template-columns: 1fr 1fr 1fr; /* Display team members in three columns */
+    }
+
+    .team-member {
+        padding: 4rem; /* Increase padding */
+    }
+
+    .tm h2 {
+        font-size: 50px; /* Adjust heading font size */
+    }
+
+    .image {
+        margin-bottom: 3rem; /* Adjust margin between team members */
+    }
+}
+
+/* For large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .team-image {
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* Display team members in four columns */
+    }
+
+    .team-member {
+        padding: 5rem; /* Further increase padding */
+    }
+
+    .tm h2 {
+        font-size: 60px; /* Further adjust heading font size */
+    }
+
+    .image {
+        margin-bottom: 4rem; /* Adjust margin between team members */
+    }
+}
+
+/* For extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Add specific styles for extra large devices if needed */
+}
+
+
+/* For small devices (phones, 576px and up) */
+@media (max-width: 575.98px) {
+    .team-image {
+        grid-template-columns: 1fr; /* Display team members in a single column */
+    }
+}
+
+/* For medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .team-image {
+        grid-template-columns: 1fr 1fr; /* Display team members in two columns */
+    }
+}
+
+/* For large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .team-image {
+        grid-template-columns: 1fr 1fr 1fr; /* Display team members in three columns */
+    }
+}
+
+/* For extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .team-image {
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* Display team members in four columns */
+    }
+}

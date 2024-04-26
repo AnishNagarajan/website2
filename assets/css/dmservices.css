@@ -66,5 +66,36 @@ color: #040021;
 }
 
 
+@media screen and (max-width: 768px) {
+    .service-sec {
+        padding: 3rem;
+    }
+
+    .our-services {
+        grid-template-columns: 1fr;
+    }
+
+    .ourservice {
+        padding: 0 15px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ourservices h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .servicee h4 {
+        font-size: 20px;
+        line-height: 48px;
+    }
+
+    .servicee p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
 
     

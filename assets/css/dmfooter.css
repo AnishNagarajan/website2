@@ -141,3 +141,22 @@
 .tcpp a:hover{
     color:#e82b4b;
 }
+
+
+/* For small devices (up to 576px) */
+@media only screen and (max-width: 576px) {
+    .footer-main {
+        grid-template-columns: 1fr; /* Change to a single column layout for small screens */
+    }
+}
+
+/* For medium devices (between 577px and 992px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .footer-main {
+        grid-template-columns: 1fr 1fr 1fr; /* Change to a single column layout for small screens */
+    }
+
+/* For large devices (above 992px) */
+@media only screen and (min-width: 993px) {
+    /* Add your styles for large devices here */
+}

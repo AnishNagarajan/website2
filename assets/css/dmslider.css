@@ -111,9 +111,60 @@
 
 
 
-  @media only screen and (max-width: 600px) {
-    .slider {
-      grid-template-columns: repeat(1, 100vw); /* Each image takes up the full viewport width, one per row */
-      width: 100%; /* Total width is now the viewport width */
+  @media screen and (max-width: 768px) {
+    .slider-container {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
     }
-  }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .slide {
+        position: relative;
+        width: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+        display: block;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .slider-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #e82b4b;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .content h2 {
+        font-size: 18px;
+        color: #e82b4b;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content h3 {
+        font-size: 36px;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+}
+  
