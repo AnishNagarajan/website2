@@ -78,7 +78,7 @@ font-weight: 700;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     z-index: 999; 
-    background: #191b1e;
+   
     /*Ensure the menu content is above other elements */
 }
 
