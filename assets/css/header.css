@@ -192,7 +192,13 @@ menu-content {
     .headersearch {
         display: none;
     }
-    
+    .menu-content-inner{
+        left:-3%;
+        top:25%;
+    }
+    .menu-content-inner p{
+        margin:2rem;
+    }
     .header-sec {
         grid-template-columns: 1fr 1fr;
          

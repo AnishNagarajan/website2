@@ -148,6 +148,9 @@
     .footer-main {
         grid-template-columns: 1fr; /* Change to a single column layout for small screens */
     }
+    .ntc{
+        margin-left:1rem;
+    }
 }
 
 /* For medium devices (between 577px and 992px) */
