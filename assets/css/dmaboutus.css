@@ -1,5 +1,6 @@
 .aboutus-sec{
-    padding:5rem;
+    padding:5rem 3rem;
+    background-color: #fdfbf7;
 }
 .dmaboutus{
     display:grid;
@@ -170,6 +171,9 @@
 @media only screen and (max-width: 768px) {
     .dmaboutus {
         grid-template-columns: 1fr;
+    }
+    .img-aboutus img{
+        width:100%;
     }
     
     .exp, .business, .para3 {

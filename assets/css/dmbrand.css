@@ -5,6 +5,10 @@
 .client:hover{
 filter:none;
 }
+.slick-slider{
+    margin-bottom:0px;
+    width:98%;
+}
 /* .client-slider img{
  width: 120px !important;;
  height:50px;

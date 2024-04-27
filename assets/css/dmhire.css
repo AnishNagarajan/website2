@@ -1,8 +1,6 @@
-.hire-sec{
-    padding-top:5rem;
-}
+
 .hire-area{
-    background-image: url('../img/hire-bg.jpg'); 
+    background: linear-gradient(rgb(0 0 0 / 62%), rgb(6 6 6 / 87%)), url(../img/hire-bg.jpg);
     background-size: cover; 
     background-position: center;
     padding-top:185px;
@@ -24,11 +22,12 @@
     color:white !important;
     text-transform: uppercase;
     margin-bottom: 0;
+    text-align:center;
 }
 
 .btn-hire{
 align-items:center;
-margin-left:37rem;
+text-align:center;
 margin-top:2rem;
 }
 .btn-hire .btn-hun
