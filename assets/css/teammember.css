@@ -4,7 +4,7 @@
 }
 .team{
     display:grid;
-    grid-template-columns:2fr 2fr 2fr;
+    
 }
 .tm p{
     font-size:20px;

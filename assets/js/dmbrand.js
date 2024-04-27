@@ -24,7 +24,7 @@ $(".client-slider").slick({
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        dots: false,. 
+        dots: false,
         infinite: true,
       },
     },
@@ -39,8 +39,5 @@ $(".client-slider").slick({
         infinite: true,
       },
     },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ],
 });
